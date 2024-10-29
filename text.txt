@@ -1,0 +1,24 @@
+npm init -y
+npm install expressmongoose dotenv
+npm install express
+npm install mongoose
+using express as web framework
+add "type": "module", in package.json then you can use "import" to express 
+
+now you can run the  the server.js using node .\backend\server.js
+but instaed of that add "dev": "node backend/server.js" in package.json and use the npm run dev to run application
+
+npm install nodemon -D
+
+change the node -> nodemon for dev in package.json
+mongodb - 
+    mdsaifali040220
+    wKWd7adsCIcTDRCa
+    conn string - mongodb+srv://mdsaifali040220:<db_password>@cluster1.t2xan.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+
+
+-----frontend
+cd .\frontend\
+npm create vite@latest
+npm i 
+npm run dev
